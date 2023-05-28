@@ -1,35 +1,68 @@
 .profile {
-    display: block;
+    min-width: 240px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .description {
-    display: block;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .avatar {
     display: block;
+    width: 120px;
+    border-radius: 50%;
 }
 
 .name {
-    display: block;
+    margin: 0;
+    margin-top: 24px;
+    font-size: 32px;
 }
 
 .tag {
-    display: block;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
 }
 
 .location {
-    display: block;
+    margin: 0;
+    margin-top: 8px;
+    font-size: 20px;
+    color: gray;
 }
 
 .stats {
-    display: block;
+    padding: 0;
+    margin: 0;
+    margin-top: 24px;
+    list-style: none;
+    display: flex;
+    background-color: #e8d9ff;
+    justify-content: space-evenly;
+}
+
+.stats>li {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .label {
-    display: block;
+    font-size: 16px;
 }
 
 .quantity {
-    display: block;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
 }

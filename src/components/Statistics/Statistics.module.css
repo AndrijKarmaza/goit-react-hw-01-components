@@ -1,0 +1,39 @@
+.statistics {
+    min-width: 300px;
+    margin-left: 24px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.statistics>ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    background-color: #e8d9ff;
+}
+
+.title {
+    margin: 0;
+    font-size: 32px;
+    padding: 14px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.item {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.percentage {
+    font-size: 20px;
+}
